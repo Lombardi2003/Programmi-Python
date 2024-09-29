@@ -17,16 +17,12 @@ Questo repository è il frutto del mio percorso universitario e contiene tutti i
     ```bash
     git clone https://github.com/Lombardi2003/Programmi-Python.git
     ```
-
-2. **Esplora il codice**: Ogni cartella contiene uno o più progetti Python, ciascuno con un README dedicato per spiegarti come funziona.
-
-3. **Esegui i file Python**: Assicurati di avere Python installato sulla tua macchina. Puoi eseguire uno script con:
+    
+2. **Esegui i file Python**: Assicurati di avere Python installato sulla tua macchina. Puoi eseguire uno script con:
 
     ```bash
     python nome_script.py
     ```
-
-   Se il progetto richiede librerie esterne, troverai le istruzioni per installarle all'interno del README di ciascun progetto.
 
 ## 📚 Risorse utili
 
