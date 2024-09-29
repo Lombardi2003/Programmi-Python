@@ -41,5 +41,6 @@ Puoi fare un fork del progetto, applicare le tue modifiche e inviare una pull re
 Grazie per aver dedicato del tempo a esplorare i miei progetti! Spero che questo repository ti sia utile e che tu possa trovare ispirazione per i tuoi progetti futuri. Se hai domande o vuoi scambiare opinioni su Python, sentiti libero di contattarmi!
 
 ---
-
-Buon coding e... che il potere del Python sia con te! 🐍💻✨
+Grazie per la visita! 🎉 Spero che questo repository ti aiuti nel tuo viaggio con Python.
+---
+Buon coding! 🚀
