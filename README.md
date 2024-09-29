@@ -1,6 +1,7 @@
 # 📂 Programmi-Python
 
 Ciao! Benvenuto nel mio repository **Programmi-Python**! 🎓🐍  
+
 Qui troverai tutti i progetti Python che ho realizzato durante il mio percorso universitario, un viaggio che mi ha permesso di esplorare a fondo il mondo della programmazione. Ogni progetto è una piccola tappa del mio apprendimento, con soluzioni creative a problemi e sfide incontrate lungo il cammino.
 
 ## 🔍 Cosa troverai qui
