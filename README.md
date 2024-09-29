@@ -10,8 +10,6 @@ Qui troverai tutti i progetti Python che ho realizzato durante il mio percorso u
 - **Progetti accademici**: Codice sviluppato per esami, progetti universitari e compiti.
 - **Sperimentazioni**: Prove con nuove librerie, algoritmi e metodologie che ho voluto testare.
 
-Ogni file è ben commentato per rendere più chiaro il processo di pensiero dietro al codice.
-
 ## 🚀 Come utilizzare questo repository
 
 1. **Clona il repository** sul tuo computer locale:
