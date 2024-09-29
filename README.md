@@ -34,8 +34,6 @@ Ecco alcune risorse che mi hanno aiutato lungo il percorso e che ti consiglio di
 
 Se hai suggerimenti, miglioramenti o vuoi semplicemente contribuire, sarò felice di accogliere ogni contributo!  
 
-Puoi fare un fork del progetto, applicare le tue modifiche e inviare una pull request. Non esitare a farmi sapere cosa ne pensi!
-
 ## 🎉 Ringraziamenti
 
 Grazie per aver dedicato del tempo a esplorare i miei progetti! Spero che questo repository ti sia utile e che tu possa trovare ispirazione per i tuoi progetti futuri. Se hai domande o vuoi scambiare opinioni su Python, sentiti libero di contattarmi!
