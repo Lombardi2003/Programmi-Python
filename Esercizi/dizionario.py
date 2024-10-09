@@ -11,7 +11,6 @@ while a=='si' :
     dict[nome] = numero
     a=input("Vuoi continuare ad inserire valori (si o no)??? ")
 
-
 # Stampa dei tutti i valori del dizionario
 print("\nStampa del dizionario:\n")
 for i in dict.items() :
