@@ -13,4 +13,4 @@ def di_nome():
     print("Mi chiamo Python.")
 
 # Chiamata della funzione decorata
-di_nome()
+di_nome()           # In realtà -> saluta_decoratore(di_nome)
