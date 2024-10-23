@@ -11,12 +11,16 @@
 sep = input('Inserire il separatore: ')
 num = input('Inserire il numero di stringhe che si vuole immettere: ')
 
-def concatena_strings(*args, separator=' '):
-    return separator.join(args)  # Utilizziamo join per unire le stringhe con il separatore
+def concatena_strings(*args, stringa, separator=' '):
+    for i in args:
+        if i == stringa:
+            continue
+        stringa = stringa + separator + i
+    return stringa
 
 lista = []
 
 for i in range(int(num)):
     lista.append(input('Inserisci una stringa: '))
 
-print(concatena_strings(*lista, separator=sep))
+print(concatena_strings(*lista, stringa=lista[0], separator=sep))

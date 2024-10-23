@@ -8,15 +8,9 @@
 # 
 # hint: Usare reduce (https://docs.python.org/3.0/library/functools.html)
 
-sep = input('Inserire il separatore: ')
-num = input('Inserire il numero di stringhe che si vuole immettere: ')
+import functools as ft
 
-def concatena_strings(*args, separator=' '):
-    return separator.join(args)  # Utilizziamo join per unire le stringhe con il separatore
+def concatenate_strings(*args, separator=''):
+    return ft.reduce(lambda a, b: a+separator+b, args)
 
-lista = []
-
-for i in range(int(num)):
-    lista.append(input('Inserisci una stringa: '))
-
-print(concatena_strings(*lista, separator=sep))
+print(concatenate_strings("ciao","mondo", separator='###'))
