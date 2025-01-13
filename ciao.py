@@ -1,3 +1,3 @@
-# Programma che stampa hi
+# Programma che stampa ciao
 
 print('ciao')
