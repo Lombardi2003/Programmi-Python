@@ -1,0 +1,54 @@
+**************** TIPI BASE ****************
+- Numerics
+- Stringhe
+    + Stringhe dinamiche -> f'stringa {x}'
+- Liste
+- Tuple
+- Insiemi
+- Dizionari
+
+************* COSTRUTTI BASE **************
+- Blocco di codice
+- Statement ;
+- Statement ,
+- Importazioni di moduli
+- Ridenominazione modulo (AS)
+- Commento #
+- Costrutti
+    + IF
+    + WHILE
+    + FOR
+        - range(x)      -> serve a a crearti un insieme di numeri in base alla fine
+        - enumerate(x)  -> serve a stampare una tupla con l'indice e il carattere dentro una determinata stringa 
+    + Cond. uscita
+        - breaks
+        - continue
+    
+**************** FUNZIONI *****************
+- Operatore *
+- Operatore **
+- Ricorsione            -> condizione di stop
+    + hasattr()         -> controllare se in un oggetto passato c'è un determinato metodo
+    + extend()          -> aggingere gli elementi di un iterabile in coda ad una lista
+- Programmazione di ordine superiore
+    + Closure
+    + map()             -> serve ad applicare una determinata funzione da un oggetto
+    + Lambda function
+- Generatori
+    + Funzioni generatrici
+        - yield         -> restituisce il valore attuale
+    + Espressioni generatrici
+    + List comprehension
+- Eccezioni
+    + try               -> codice da controllare
+    + except            -> gestire errore/eccezione sollevata
+    + else              -> la parte di codice che viene eseguita dopo la gestione di almeno un'eccezione
+    + finally           -> codice che viene eseguito sempre
+    + raise             -> sollevata l'eccezione
+- Decoratori
+
+************ CLASSI E OGGETTI *************
+- Costruttore
+    + __init__()
+- Creatore
+    + __new__()
