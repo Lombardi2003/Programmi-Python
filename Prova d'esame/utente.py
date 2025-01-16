@@ -44,3 +44,9 @@ class Utente:
             if i.get_status() == 'Accetto':
                 s+=i.get_ore()
         print("Le ore accettate sono totali: ",s," con il gadagno di ",s*self.stipendio)
+
+    def esporta_richiesta(self):
+        self.vis_richieste()
+        s = int(input("Quale richiesta vuoi eportare??? "))
+        with open(f'{self.get_nome()}_Richiesta {s}.txt','w') as exp:
+            exp.write(f'Richiesta di {self.rich[s].get_ore()} ore - Status: {self.rich[s].get_status()}')

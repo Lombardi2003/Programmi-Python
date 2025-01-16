@@ -59,14 +59,15 @@ def crea_utente():
 
 def menu_utente_sub(u):
     while True:
-        rich = [utenti[u].nuova_richiesta,utenti[u].vis_richieste,utenti[u].tot_denaro]
+        rich = [utenti[u].nuova_richiesta,utenti[u].vis_richieste,utenti[u].tot_denaro,utenti[u].esporta_richiesta]
         print(f"BENVENUTO {utenti[u].get_nome()}, sei {utenti[u].get_ruolo()}\n")
         s = int(input("1) Effettua richiesta\n"
                     "2) Visualizza richieste eseguite\n"
                     "3) Richiedere il coteggio delle ore accettate e del relativo importo in denaro\n"
-                    "4) Tornare al Menu principale\n"
+                    "4) Selezionare una richiesta da esportare\n"
+                    "5) Tornare al Menu principale\n"
                     "\nScelta: ")) - 1
-        if s == 3:
+        if s == 4:
             return 0
         else:
             rich[s]()
